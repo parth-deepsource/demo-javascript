@@ -83,3 +83,7 @@ function isMatched(str){
     const matches = str.match(/hasTheMagic/)[0] ? process(str) : null;
     return matches
 }
+
+const mult = (x, y) {
+  return x * y 
+}
